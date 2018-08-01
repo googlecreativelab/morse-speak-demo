@@ -1,0 +1,35 @@
+#input {
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  outline: none;
+  overflow: auto;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize:none;
+}
+
+#input-container {
+  margin-top: 40px;
+  max-height: 200px;
+  padding: 0;
+}
+
+#controls {
+  margin-top: 20px;
+  overflow: auto;
+}
+
+#speak {
+  float: left;
+  width: 98px;
+}
+
+#clear {
+  float: left;
+  margin-left: 20px;
+  width: 71.3333333333px;
+}

@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.header {
+  align-items: center;
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  font-size: 14px;
+  font-weight: 700;
+  height: 50px;
+  justify-content: center;
+  padding: 0 30px;
+  position: relative;
+  z-index: 3;
+}
+
+.orientation-block {
+  display: none;
+}
+
+.overlay {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 50px; /* height of header */
+  z-index: 1;
+}
+
+.about {
+  -webkit-overflow-scrolling: touch;
+  background-color: white;
+  padding: 30px;
+  overflow: auto;
+}
+
+.about-content {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.about-content a {
+  color: #00a651;
+}
+
+.icon {
+  height: 20px;
+  left: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+}
+
+.icon img {
+  width: 100%;
+}
+
+.device-block {
+  -webkit-overflow-scrolling: touch;
+  background: white;
+  font-size: 13px;
+  font-weight: 700;
+  height: 100%;
+  left: 0;
+  overflow: scroll;
+  padding: 120px 50px 30px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+.device-block-inner {
+  margin: 0 auto;
+  max-width: 340px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  max-width: 100%;
+  width: 252px;
+}
+
+.title {
+  margin-bottom: 55px;
+  margin-top: 70px;
+}
+
+.button {
+  display: block;
+  padding: 10px;
+  width: 100%;
+}
+
+.cta {
+  margin-top: 15px;
+}
+
+.cta a {
+  background-color: black;
+  color: white;
+}
+
+.disclaimer a {
+  border: 1px solid black;
+  background: white;
+  color: black;
+}
+
+.disclaimer-text {
+  font-size: 9px;
+  margin-top: 10px;
+}
+
+@media screen and (min-aspect-ratio: 13/9) and (max-width: 768px) {
+
+  .orientation-block {
+    align-items: center;
+    background-color: white;
+    background-image: url('../assets/images/rotate.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 232.5933333333px 261.0666666667px;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    top: 0;
+  }
+}
